@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Italianno|Pacifico|Source+Code+Pro');
 
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
 body {
     font-family: 'Source Code Pro', monospace;
     font-size: 1rem;
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
+    /* margin: 0;
+    padding: 0; */
+
+    width: 100vw;
     overflow-x: hidden;
 }
 

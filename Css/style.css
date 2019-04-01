@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno|Pacifico|Source+Code+Pro');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.gfont {
+    font-family: 'Italianno', cursive;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.gfont1 {
+    font-family: 'Pacifico', cursive;
+
+}
+
+.gfont2 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer * {
+    margin: 0;
+    padding: 0;
+}
